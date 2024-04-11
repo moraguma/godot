@@ -651,7 +651,7 @@ void ProjectManager::_erase_project() {
 	if (selected_list.size() >= 2) {
 		confirm_message = vformat(TTR("Remove %d projects from the list?"), selected_list.size());
 	} else {
-		confirm_message = TTR("Remove this project from the list?");
+		confirm_message = TTR("Mudança de teste!");
 	}
 
 	erase_ask_label->set_text(confirm_message);
